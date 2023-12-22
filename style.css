@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:  #480CA8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 400px;
+    padding: 40px;
+    background-color:#00ffff;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    text-decoration:double #F72585 underline;
+}
+
+.game-board {
+    display: inline-block;
+    margin: 20px;   
+}
+
+.game-section {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 5px solid  #F72585;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: #3A0CA3;
+    border-radius: 10px;
+}
+
+.winner-text {
+    font-size: 40px;
+    margin: 20px 0;
+    color: #3A0CA3;
+}
+
+#restartButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #3A0CA3;
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.vs-button button {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 20px 0 20px;
+    cursor: pointer;
+}
+
+.vs-button button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #3A0CA3;
+    border: none;
+}
