@@ -9,7 +9,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color:  #480CA8;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
     border-radius: 10px;
     width: 400px;
     padding: 40px;
-    background-color:#00ffff;
+    background-color:greenyellow;
 }
 
 h1 {
